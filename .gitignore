@@ -1,0 +1,14 @@
+# Ignore environment file with credentials
+.env
+
+# Ignore log files
+logs/
+*.log
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
