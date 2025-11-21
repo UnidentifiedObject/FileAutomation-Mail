@@ -1,0 +1,27 @@
+##########################################################
+#          FILE AUTOMATION PROJECT - ENV TEMPLATE       #
+##########################################################
+
+# This file is a template for your .env credentials.
+# Do NOT commit your real .env file with credentials to GitHub.
+# Step 1: Make a copy of this file and rename it to ".env"
+# Step 2: Open the new .env file and fill in your credentials
+
+# Your Gmail address for sending email notifications
+EMAIL_USER=your_email@gmail.com
+
+# Your Gmail App Password (see instructions below)
+EMAIL_PASS=your_app_password
+
+##########################################################
+# HOW TO CREATE A GMAIL APP PASSWORD:
+# 1. Make sure 2-Step Verification is ON for your Gmail account.
+# 2. Go to Google Account > Security > App passwords.
+# 3. Select 'Mail' for the app (or choose Other and name it).
+# 4. Copy the 16-character App Password and paste it as EMAIL_PASS above.
+##########################################################
+
+# Notes:
+# - Keep the .env file secret! Do NOT upload it to GitHub.
+# - The script will read these credentials to send email summaries.
+# - Without a valid .env file, the email feature will NOT work.
